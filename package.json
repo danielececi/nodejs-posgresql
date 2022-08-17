@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-posgresql",
-  "version": "0.0.0",
+  "name": "resthelloworld",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -14,5 +14,17 @@
   },
   "devDependencies": {
     "@architect/sandbox": "^3.3.7"
-  }
+  },
+  "description": "A demo Quotes REST API using Node.js and PostgreSQL. Built with Express Js for this [Node.js PostgreSQL tutorial](https://geshan.com.np/blog/2021/01/nodejs-postgresql-tutorial/).",
+  "main": "hello-world.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielececi/nodejs-posgresql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielececi/nodejs-posgresql/issues"
+  },
+  "homepage": "https://github.com/danielececi/nodejs-posgresql#readme"
 }
